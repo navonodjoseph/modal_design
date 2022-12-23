@@ -1,0 +1,12 @@
+body {
+    margin: 0; 
+    font-family: sans-serif; 
+    text-align: center; 
+}
+
+.tiles { 
+    display: inline-grid;  
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px); 
+}
+
