@@ -6,7 +6,112 @@ body {
 
 .tiles { 
     display: grid;  
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(3, 200px); 
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px); 
 }
+.img{
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+
+.img-box1{
+    background-image: url(/img/friends.jpeg);
+    background-size: cover; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    background-position: center;
+
+}
+.img-box2{
+    background-image: url(/img/nordic.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box3{
+    background-image: url(/img/touring.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box4{
+    background-image: url(/img/midwest.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box5{
+    background-image: url(/img/resort.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box6{
+    background-image: url(/img/lunch.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box7{
+    background-image: url(/img/friends.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box8{
+    background-image: url(/img/wax.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box9{
+    background-image: url(/img/gas.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box10{
+    background-image: url(/img/lessons.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box11{
+    background-image: url(/img/local.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+.img-box12{
+    background-image: url(/img/expectations.jpeg);
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden;
+    background-position: center; 
+}
+
 
