@@ -1,7 +1,7 @@
 //get modal element 
 const modal = document.getElementById('simpleModal'); 
 //get open modal button 
-const modalBtn = document.getElementById('modalBtn'); 
+const modalBtn = document.querySelectorAll('.tiles'); 
 // get close button 
 const closeBtn = document.getElementsByClassName('closeBtn')[0]; 
 

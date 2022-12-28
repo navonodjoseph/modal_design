@@ -7,7 +7,14 @@ body {
 .button:hover{
     background: #333; 
 }
-
+.button{
+    cursor: pointer;
+    border: none;
+    height: 300px; 
+    width: 300px; 
+    border: none; 
+    opacity: 0.0; 
+}
 .modal{
     display: none; 
     position: fixed; 
@@ -50,7 +57,7 @@ body {
 }
 
 
-.img-box1{
+#img-box1{
     background-image: url(/img/friends.jpeg);
     background-size: cover; 
     width: 300px; 
@@ -59,7 +66,7 @@ body {
     background-position: center;
 
 }
-.img-box2{
+#img-box2{
     background-image: url(/img/nordic.jpeg);
     background-size: cover;
     width: 300px; 
